@@ -126,6 +126,6 @@ contract Staker {
   cc: https://docs.soliditylang.org/en/latest/contracts.html#receive-ether-function
   */
   receive() external payable {
-      emit Received(msg.sender, msg.value); 
+      emit Received(msg.sender, msg.value);
   }
 }
